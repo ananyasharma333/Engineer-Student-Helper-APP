@@ -1,0 +1,52 @@
+# Root .gitignore for Engineering Student Super App
+
+# Node.js
+**/node_modules/
+**/dist/
+**/build/
+.npm
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# Java (Spring Boot / Maven / Gradle)
+**/target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+**/.mvn/wrapper/maven-wrapper.jar
+**/bin/
+**/out/
+**/.gradle/
+**/gradle-app.setting
+**/!gradle-wrapper.jar
+**/*.class
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.settings/
+.factorypath
+.apt_generated/
+.sts4-cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Vercel
+.vercel
+
+# Other
+uploads/
+*.log
+login.json
+test.json
