@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: engineering-student-backend
+    runtime: docker
+    rootDir: backend-java
+    plan: free
+    envVars:
+      - key: MONGO_URI
+        value: mongodb+srv://aananya_sh:Radha%4024@cluster0.wdtfldq.mongodb.net/engineering_super_app?appName=Cluster0
+      - key: JWT_SECRET
+        value: engineering_super_app_jwt_secret_key_2024_very_secure_long_enough_for_hmac_sha256_key
+      - key: PORT
+        value: 8080
