@@ -9,7 +9,7 @@ const getBaseURL = () => {
   
   // Use the environment variable if defined (for Vercel), otherwise fallback to the last known working public link
   // NOTE: If using a tunnel like Serveo, update this URL or set VITE_API_URL in Vercel settings
-  return import.meta.env.VITE_API_URL || 'https://468e7dd7692198a1-47-15-186-91.serveousercontent.com/api';
+  return import.meta.env.VITE_API_URL || 'https://engineering-student-backend.onrender.com/api';
 };
 
 const api = axios.create({
